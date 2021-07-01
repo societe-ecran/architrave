@@ -1,8 +1,24 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import React from "react";
+import Lottie from "react-lottie";
+import animationData from "../public/assets/comming-soon.json";
+
+
 
 export default function Home() {
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+
 
   return (
     <div className={styles.container}>
@@ -14,7 +30,16 @@ export default function Home() {
 
       <main className={styles.main}>
 
-Site en construction
+
+
+
+
+<div className='font-bold text-3xl '>
+  ARCHITRAVE <br/>
+  </div>
+Site en maintenance
+
+<Lottie options={defaultOptions} height={500} width={1000} />
 
 
 
