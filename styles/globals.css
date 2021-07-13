@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html,
 body {
   padding: 0;
@@ -18,4 +17,31 @@ a {
 
 * {
   box-sizing: border-box;
+}
+/* 
+@media (min-width: 768px) {
+  .tailleLottie {
+    height: 250;
+    width: 500;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tailleLottie {
+    height: 500;
+    width: 1000;
+  }
+} */
+
+
+.lotties {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+@media only screen and (min-width: 800px) {
+  .lotties {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }
