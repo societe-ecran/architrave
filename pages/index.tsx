@@ -32,14 +32,15 @@ export default function Home() {
         </div>
         Site en maintenance
         
-        <div className='lotties'>
+        {/* <div className='lotties'>
             <Lottie options={defaultOptions}  className='tailleLottie' />
-        </div>
+        </div> */}
       
       </main>
 
       <footer className={styles.footer}>
         Make with love by Antonin Reigneaud
+        ...
       </footer>
     </div>
   );
