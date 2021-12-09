@@ -30,10 +30,10 @@ export default function Home() {
         <div className="font-bold text-3xl ">
           ARCHITRAVE <br />
         </div>
-        <div className="font-bold text-3xl ">
+        <div className="font-bold text-2xl ">
           Hubert REIGNEAUD <br />
         </div>
-        <div className="font-bold text-3xl ">
+        <div className="font-bold text-xl ">
          Architect DEA<br />
         </div>
         <div className="lotties">
