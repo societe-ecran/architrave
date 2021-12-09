@@ -30,7 +30,12 @@ export default function Home() {
         <div className="font-bold text-3xl ">
           ARCHITRAVE <br />
         </div>
-        test
+        <div className="font-bold text-3xl ">
+          Hubert REIGNEAUD <br />
+        </div>
+        <div className="font-bold text-3xl ">
+         Architect DEA<br />
+        </div>
         <div className="lotties">
           <Lottie options={defaultOptions} className="tailleLottie" />
         </div>
