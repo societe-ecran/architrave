@@ -16,8 +16,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Head>
-        tailleLottie
+      <Head>tailleLottie
         <title>ARCHITRAVE - Architecture</title>
         <meta
           name="description"
@@ -30,14 +29,24 @@ export default function Home() {
         <div className="font-bold text-3xl ">
           ARCHITRAVE <br />
         </div>
-        test
-        <div className="lotties">
-          <Lottie options={defaultOptions} className="tailleLottie" />
+        <div className="font-bold text-2xl ">
+          Hubert REIGNEAUD <br />
         </div>
+        <div className="font-bold text-2xl ">
+         Architect DEA <br />
+        </div>
+
+        Site en maintenance
+        
+        <div className='lotties'>
+            <Lottie options={defaultOptions}  className='tailleLottie' />
+        </div>
+      
       </main>
 
       <footer className={styles.footer}>
-        Make with love by Antonin Reigneaud ...
+        Make with love by Antonin Reigneaud
+        ...
       </footer>
     </div>
   );
